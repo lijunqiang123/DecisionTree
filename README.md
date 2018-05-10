@@ -7,6 +7,7 @@
 ### 3.选择最好的数据集划分方式：
 * 计算每种划分方式的信息增益，信息增益越大，选择按照该维数据进行划分数据集
 * 信息增益的计算公式为：
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=$$Gain(D,a)=Ent(D)-\sum_{v=1}^{V}{\frac{|D^v|}{|D|}Ent(D^v)}$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$Gain(D,a)=Ent(D)-\sum_{v=1}^{V}{\frac{|D^v|}{|D|}Ent(D^v)}$$" title="$$Gain(D,a)=Ent(D)-\sum_{v=1}^{V}{\frac{|D^v|}{|D|}Ent(D^v)}$$" /></a>
 
 其中，<a href="https://www.codecogs.com/eqnedit.php?latex=$D^v$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$D^v$" title="$D^v$" /></a>是划分的一个子集

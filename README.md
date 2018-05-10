@@ -1,7 +1,7 @@
 # DecisionTree(决策树ID3的实现)
 ## ID3决策树的算法步骤总结如下：
 ### 1.计算给定数据集的香农熵：
-$$Ent(D)=-\sum_{i=1}^{n}{p(x_i)*log_2p(x_i)}$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=$$Ent(D)=-\sum_{i=1}^{n}{p(x_i)*log_2p(x_i)}$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$Ent(D)=-\sum_{i=1}^{n}{p(x_i)*log_2p(x_i)}$$" title="$$Ent(D)=-\sum_{i=1}^{n}{p(x_i)*log_2p(x_i)}$$" /></a>
 ### 2.对数据集进行划分：
 数据集的其中某一维数据满足某个值，则去除该维数据
 ### 3.选择最好的数据集划分方式：

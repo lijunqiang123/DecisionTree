@@ -1,4 +1,5 @@
 # DecisionTree(决策树ID3的实现)
+## 注：ID3算法只能处理分类的特征，也就是离散特征，不能处理连续的特征
 ## ID3决策树的算法步骤总结如下：
 ### 1.计算给定数据集的香农熵：
 <a href="https://www.codecogs.com/eqnedit.php?latex=$$Ent(D)=-\sum_{i=1}^{n}{p(x_i)*log_2p(x_i)}$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$Ent(D)=-\sum_{i=1}^{n}{p(x_i)*log_2p(x_i)}$$" title="$$Ent(D)=-\sum_{i=1}^{n}{p(x_i)*log_2p(x_i)}$$" /></a>
